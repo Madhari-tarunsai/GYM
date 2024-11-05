@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head>
+<style>
+    body{
+        background-image:url(signupgym.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
+        height: 120vh;
+        width: 100wh;
+    }
+</style>
+<body>
+    <center><h1 style="color: aliceblue;"><u>signup Form</u></h1></center>
+    <center><form action=""><br><br><br>
+        <label for="name" style="color: aliceblue;">First_name :</label>
+        <input type="name" id="name" placeholder="eg:ramteja"  name="First_name"><br><br>
+
+
+        <label for="name" style="color: aliceblue;">Last_name :</label>
+        <input type="name" id="name" placeholder="eg:ramteja"  name="Last_name"><br><br>
+
+
+        <label for="mobile" style="color: aliceblue;">Moblie_no :</label>
+        <input type="tel" id="mobile" placeholder="eg:0000000000"  pattern="[0-9]{10}" name="Moblie_no"><br><br>
+
+
+        <label for="mail" style="color: aliceblue;">Email_add :</label>
+        <input type="email" id="mail" placeholder="eg:ramteja@123"  name="Email_add"><br><br>
+
+
+        <label for="password" style="color: aliceblue;">P@ssword :</label>
+        <input type="password" id="password" name="p@ssword"><br><br>
+        <details >
+            <summary style="color: aliceblue;">Hints:</summary>
+            <pre style="color: aliceblue; font-size: larger;">
+                1.Build your password from a phrase 
+                  2.Avoid using emotions in your password
+     3.Password lengths is more
+   4.Alphabets in lowercase
+                                      5.Alphabets in upper caseSymbols & Miscellaneous characters
+                 
+            </pre>
+        </details>
+
+
+        <label for="re-password" style="color: aliceblue;">Re-P@ssword :</label>
+        <input type="password" id="re-password" name="re-password"><br><br>
+
+
+        <label for="height" style="color: aliceblue;">Height_inch :</label>
+        <input type="number" id="height" placeholder="eg:4.5_inch"  name="Height_inch"><br><br>
+
+
+        <label for="weight" style="color: aliceblue;">weight_kg's :</label>
+        <input type="number" id="weight" placeholder="eg:45kg"  name="weight_kg"><br><br><br>
+
+        <center><h2 style="color: aliceblue;"><u>Type of body</u></h2></center>
+        <input type="radio" value="Growth_body" name="body">
+        <label style="color: aliceblue;" >Growth_body</label>
+
+
+        <input type="radio" value="Normal_body" name="body">
+        <label style="color: aliceblue;" >Normal_body</label>
+
+
+        <input type="radio" value="Fat_body" name="body">
+        <label style="color: aliceblue;" >Fat_body</label><br><br>
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="I have already haven account" formaction="./login.html">
+        
+    </form></center>
+
+    
+</body>
+</html>
